@@ -5,3 +5,4 @@
 export module FufuEngine;
 
 export import FufuEngine.Application;
+export import FufuEngine.Log;

@@ -14,63 +14,16 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}")
 project(FufuEngine)
 
 
-# Engine Libary
-add_library(FufuEngine SHARED)
+# 第三方依赖
+include(FetchContent)
 
-target_compile_features(FufuEngine PUBLIC cxx_std_23)
-
-target_compile_definitions(FufuEngine PRIVATE FUFU_BUILD_DLL)
-
-target_include_directories(FufuEngine
-        PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/FufuEngine/include
+FetchContent_Declare(spdlog
+        SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/FufuEngine/thirdparty/spdlog
+        OVERRIDE_FIND_PACKAGE
 )
 
-target_sources(FufuEngine
-        PUBLIC
-        FILE_SET CXX_MODULES
-        BASE_DIRS
-        ${CMAKE_CURRENT_SOURCE_DIR}/FufuEngine/modules
-        FILES
-        FufuEngine/modules/FufuEngine.cppm
-        FufuEngine/modules/Application.cppm
-        PRIVATE
-        FufuEngine/src/Application.cpp
-)
-
-set_target_properties(FufuEngine PROPERTIES
-        ARCHIVE_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}"
-        LIBRARY_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}"
-        RUNTIME_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}"
-        CXX_EXTENSIONS OFF
-        CXX_MODULE_STD ON
-        CXX_SCAN_FOR_MODULES ON
-)
-
-# game libary
-add_executable(Sandbox)
-
-target_compile_features(Sandbox PRIVATE cxx_std_23)
-
-target_sources(Sandbox
-        PRIVATE
-        Sandbox/src/SandboxApp.cpp
-        PRIVATE
-        FILE_SET CXX_MODULES
-        BASE_DIRS
-        ${CMAKE_CURRENT_SOURCE_DIR}/FufuEngine/modules
-        FILES
-        FufuEngine/modules/EntryPoint.cppm
-)
-
-set_target_properties(Sandbox PROPERTIES
-        ARCHIVE_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}"
-        LIBRARY_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}"
-        RUNTIME_OUTPUT_DIRECTORY "${FUFU_OUTPUT_DIRECTORY}"
-        CXX_EXTENSIONS OFF
-        CXX_MODULE_STD ON
-        CXX_SCAN_FOR_MODULES ON
-)
+find_package(spdlog REQUIRED)
 
 
-target_link_libraries(Sandbox PRIVATE FufuEngine)
+add_subdirectory(FufuEngine)
+add_subdirectory(Sandbox)

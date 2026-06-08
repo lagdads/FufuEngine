@@ -1,0 +1,3 @@
+[submodule "FufuEngine/thirdparty/spdlog"]
+	path = FufuEngine/thirdparty/spdlog
+	url = https://github.com/gabime/spdlog.git
