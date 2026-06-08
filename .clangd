@@ -1,0 +1,13 @@
+CompileFlags:
+  CompilationDatabase: build/llvm-debug
+  Add:
+    - -std=c++23
+  Remove:
+    - -fcolor-diagnostics
+
+Index:
+  Background: Build
+
+Diagnostics:
+  MissingIncludes: Strict
+  UnusedIncludes: Strict

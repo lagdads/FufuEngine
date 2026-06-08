@@ -1,0 +1,25 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "llvm-debug",
+      "displayName": "LLVM Debug",
+      "description": "Debug build using Homebrew LLVM for C++23 modules and import std.",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/llvm-debug",
+      "warnings": {
+        "dev": false
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "llvm-debug",
+      "configurePreset": "llvm-debug"
+    }
+  ]
+}

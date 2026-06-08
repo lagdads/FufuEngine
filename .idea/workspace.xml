@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="15" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
+    <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="FufuEngine" targetName="FufuEngine" />
+      <config projectName="FufuEngine" targetName="Sandbox" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="llvm-debug" PROFILE_DISPLAY_NAME="LLVM Debug" ENABLED="true" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/llvm-debug" />
+      <configuration PROFILE_NAME="llvm-debug - llvm-debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/llvm-debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac3d80dc-bec8-4ff3-9bda-efc3a246f1d1" name="更改" comment="初始化仓库">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="131" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:llvm-debug" />
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000803875306" />
+      <entry key="S5" value="1.0034414398819913" />
+      <entry key="S10" value="1.151903952565069" />
+      <entry key="S30" value="3.230982496308756" />
+      <entry key="S60" value="6.1966719537008395" />
+      <entry key="M2" value="10.530489514933409" />
+      <entry key="M5" value="21.402087536640696" />
+      <entry key="M10" value="50.80889329733143" />
+      <entry key="M15" value="84.36106017866571" />
+      <entry key="M30" value="170.08455464692562" />
+      <entry key="H1" value="267.6718406147208" />
+      <entry key="H2" value="346.3423749985931" />
+      <entry key="H4" value="397.18483677212396" />
+      <entry key="D1" value="447.0822458216489" />
+      <entry key="W1" value="456.4198789190404" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.541392464452118E-200" />
+      <entry key="S5" value="1.4563434337216594E-80" />
+      <entry key="S10" value="1.3081635633639388E-40" />
+      <entry key="S30" value="1.1278788270349888E-13" />
+      <entry key="S60" value="1.0367679305421207E-6" />
+      <entry key="M2" value="0.0040025873881327865" />
+      <entry key="M5" value="0.6807571916996317" />
+      <entry key="M10" value="4.4906236665818104" />
+      <entry key="M15" value="9.195865998995705" />
+      <entry key="M30" value="20.84709366272121" />
+      <entry key="H1" value="33.28474723079112" />
+      <entry key="H2" value="42.86521901062841" />
+      <entry key="H4" value="48.903205395689994" />
+      <entry key="D1" value="54.73494689484964" />
+      <entry key="W1" value="55.81713803220467" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167307382933" />
+      <entry key="S2" value="0.9979227992835221" />
+      <entry key="S5" value="1.0026082075768448" />
+      <entry key="S10" value="1.1514481658388298" />
+      <entry key="S30" value="3.2305733201150226" />
+      <entry key="S60" value="6.194973937531374" />
+      <entry key="M2" value="10.529777901547295" />
+      <entry key="M5" value="22.072076271049344" />
+      <entry key="M10" value="55.27741119928508" />
+      <entry key="M15" value="93.52849560400603" />
+      <entry key="M30" value="190.89926451843857" />
+      <entry key="H1" value="300.9297170980312" />
+      <entry key="H2" value="389.1897559018983" />
+      <entry key="H4" value="446.07768077379467" />
+      <entry key="D1" value="501.81522766567275" />
+      <entry key="W1" value="512.2367298301258" />
+    </decayedShown>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EqtzSMF7XJwz2cUqS8W9OwDv1l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.Sandbox.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lagdadsli/CLionProjects/FufuEngine&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FufuEngine/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Sandbox" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FufuEngine" TARGET_NAME="Sandbox" CONFIG_NAME="llvm-debug" RUN_TARGET_PROJECT_NAME="FufuEngine" RUN_TARGET_NAME="Sandbox">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac3d80dc-bec8-4ff3-9bda-efc3a246f1d1" name="更改" comment="" />
+      <created>1773326881772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773326881772</updated>
+      <workItem from="1773326883162" duration="17000" />
+      <workItem from="1780918191212" duration="4000" />
+      <workItem from="1780918737196" duration="70000" />
+      <workItem from="1780918814601" duration="47000" />
+      <workItem from="1780919214288" duration="1265000" />
+      <workItem from="1780920580788" duration="877000" />
+      <workItem from="1780921468533" duration="1423000" />
+      <workItem from="1780923315549" duration="71000" />
+      <workItem from="1780923393662" duration="912000" />
+      <workItem from="1780925115728" duration="4574000" />
+      <workItem from="1780929708669" duration="643000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
