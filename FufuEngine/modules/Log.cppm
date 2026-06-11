@@ -1,6 +1,6 @@
 module;
 
-#include <FufuEngine/Core/Macros.hpp>
+#include <FufuEngine.hpp>
 #include <spdlog/spdlog.h>
 #include <spdlog/sinks/stdout_color_sinks.h>
 
@@ -10,28 +10,27 @@ import std;
 
 export namespace FufuEngine
 {
-	class Log {
+	class FUFU_API Log {
 		public:
-			static inline void init() {
-				spdlog::set_pattern("%^[%T] %n: %v%$");
+			/**
+			 * 初始化核心日志器和客户端日志器。
+			 */
+			static void init();
 
-				s_CoreLogger = spdlog::stdout_color_mt("Core");
-				s_CoreLogger->set_level(spdlog::level::trace);
+			/**
+			 * 获取核心日志器。
+			 * @return 核心日志器的共享指针。
+			 */
+			static auto getCoreLogger() -> std::shared_ptr<spdlog::logger>;
 
-				s_ClientLogger = spdlog::stdout_color_mt("Client");
-				s_ClientLogger->set_level(spdlog::level::trace);
-			}
-
-			static inline auto getCoreLogger() {
-				return s_CoreLogger;
-			}
-
-			static inline auto getClientLogger() {
-				return s_ClientLogger;
-			}
+			/**
+			 * 获取客户端日志器。
+			 * @return 客户端日志器的共享指针。
+			 */
+			static auto getClientLogger() -> std::shared_ptr<spdlog::logger>;
 
 		private:
-			inline static std::shared_ptr<spdlog::logger> s_CoreLogger;
-			inline static std::shared_ptr<spdlog::logger> s_ClientLogger;
+			static std::shared_ptr<spdlog::logger> s_CoreLogger;
+			static std::shared_ptr<spdlog::logger> s_ClientLogger;
 	};
 }

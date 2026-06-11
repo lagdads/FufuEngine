@@ -3,10 +3,13 @@
   "configurePresets": [
     {
       "name": "llvm-debug",
-      "displayName": "LLVM Debug",
-      "description": "Debug build using Homebrew LLVM for C++23 modules and import std.",
+      "displayName": "MSVC Debug",
+      "description": "MSVC debug build for C++23 modules and import std.",
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build/llvm-debug",
+      "environment": {
+        "VSLANG": "1033"
+      },
       "warnings": {
         "dev": false
       },
@@ -19,7 +22,10 @@
   "buildPresets": [
     {
       "name": "llvm-debug",
-      "configurePreset": "llvm-debug"
+      "configurePreset": "llvm-debug",
+      "environment": {
+        "VSLANG": "1033"
+      }
     }
   ]
 }

@@ -6,4 +6,9 @@ export module FufuEngine;
 
 export import FufuEngine.Application;
 export import FufuEngine.Log;
+
+
 export import FufuEngine.Event;
+export import FufuEngine.Event.KeyEvent;
+export import FufuEngine.Event.MouseEvent;
+export import FufuEngine.Event.ApplicationEvent;

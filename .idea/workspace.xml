@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="12" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
-    <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -23,21 +24,48 @@
       <config projectName="FufuEngine" targetName="FufuEngine" />
       <config projectName="FufuEngine" targetName="Sandbox" />
       <config projectName="FufuEngine" targetName="spdlog" />
+      <config projectName="FufuEngine" targetName="glm-module" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="llvm-debug" PROFILE_DISPLAY_NAME="LLVM Debug" ENABLED="true" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/llvm-debug" />
+      <configuration PROFILE_NAME="llvm-debug" PROFILE_DISPLAY_NAME="MSVC Debug" ENABLED="true" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/llvm-debug" />
       <configuration PROFILE_NAME="llvm-debug - llvm-debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/llvm-debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3d80dc-bec8-4ff3-9bda-efc3a246f1d1" name="更改" comment="日志系统">
-      <change afterPath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Event.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FufuEngine/modules/Events/Event.cppm" afterDir="false" />
+    <list default="true" id="ac3d80dc-bec8-4ff3-9bda-efc3a246f1d1" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FufuEngine.cmake/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FufuEngine.cmake/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FufuEngine.cmake/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FufuEngine.cmake/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FufuEngine.cmake/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FufuEngine/modules/Events/ApplicationEvent.cppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FufuEngine/modules/Events/MouseEvent.cppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FufuEngine/src/Log.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FufuEngine/thirdparty/glm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Macros.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Macros.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakePresets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CMakePresets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Compiler.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Event.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Export.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Log.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Macros.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Platform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/modules/Application.cppm" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/modules/Application.cppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/modules/Events/Event.cppm" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/modules/Events/Event.cppm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FufuEngine/modules/FufuEngine.cppm" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/modules/FufuEngine.cppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/modules/Log.cppm" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/modules/Log.cppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FufuEngine/src/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/src/Application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +77,12 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="CopilotPersistence">
-    <persistenceIdMap />
+    <persistenceIdMap>
+      <entry key="_C:/Users/lagdads/Programming Project/FufuEngine" value="3EqtzSMF7XJwz2cUqS8W9OwDv1l" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="207" />
@@ -61,6 +94,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -149,7 +183,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;CMake 应用程序.Sandbox.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.Sandbox.executor&quot;: &quot;Profiler&quot;,
+    &quot;CMake 调试.FufuEngine.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
@@ -160,16 +195,18 @@
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lagdadsli/CLionProjects/FufuEngine&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lagdads/Programming Project/FufuEngine&quot;,
     &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.codeverse.userSettings.AppSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -179,7 +216,20 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake 应用程序.Sandbox">
+    <configuration name="FufuEngine" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="未命名" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FufuEngine" TARGET_NAME="FufuEngine" CONFIG_NAME="llvm-debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sandbox" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FufuEngine" TARGET_NAME="Sandbox" CONFIG_NAME="llvm-debug" RUN_TARGET_PROJECT_NAME="FufuEngine" RUN_TARGET_NAME="Sandbox">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glm-module" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FufuEngine" TARGET_NAME="glm-module" CONFIG_NAME="llvm-debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -190,9 +240,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake 应用程序.Sandbox" />
+      <item itemvalue="CMake 应用程序.未命名" />
+      <item itemvalue="CMake 应用程序.glm-module" />
       <item itemvalue="CMake 应用程序.spdlog" />
+      <item itemvalue="CMake 应用程序.Sandbox" />
+      <item itemvalue="CMake 调试.FufuEngine" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake 调试.FufuEngine" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -213,13 +271,18 @@
       <workItem from="1780925115728" duration="4574000" />
       <workItem from="1780929708669" duration="643000" />
       <workItem from="1780930552684" duration="3035000" />
-      <workItem from="1780933603336" duration="1669000" />
-      <workItem from="1780989711933" duration="14000" />
-      <workItem from="1780989753456" duration="25000" />
-      <workItem from="1780989796302" duration="137000" />
-      <workItem from="1780989963161" duration="179000" />
-      <workItem from="1780990367558" duration="12677000" />
-      <workItem from="1781148376273" duration="10000" />
+      <workItem from="1780933603336" duration="735000" />
+      <workItem from="1781097923271" duration="285000" />
+      <workItem from="1781098611760" duration="185000" />
+      <workItem from="1781099330526" duration="786000" />
+      <workItem from="1781100148259" duration="1346000" />
+      <workItem from="1781101585215" duration="229000" />
+      <workItem from="1781148961026" duration="2710000" />
+      <workItem from="1781155344552" duration="32000" />
+      <workItem from="1781159219147" duration="1777000" />
+      <workItem from="1781161408611" duration="828000" />
+      <workItem from="1781162244140" duration="8674000" />
+      <workItem from="1781171223218" duration="2242000" />
     </task>
     <task id="LOCAL-00001" summary="初始化仓库，实现基础的 EntryPoint">
       <option name="closed" value="true" />
@@ -269,5 +332,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

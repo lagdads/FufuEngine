@@ -4,7 +4,7 @@
 
 module;
 
-#include <FufuEngine/Core/Macros.hpp>
+#include "FufuEngine.hpp"
 
 export module FufuEngine.Application;
 
@@ -15,6 +15,6 @@ export namespace FufuEngine
 			Application();
 			virtual ~Application();
 
-			void Run();
+			virtual void Run();
 	};
 }

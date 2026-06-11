@@ -1,4 +1,5 @@
-add_library(FufuEngine SHARED)
+add_library(FufuEngine SHARED
+        modules/Events/KeyEvent.cppm)
 
 file(GLOB_RECURSE FUFU_ENGINE_HEADERS CONFIGURE_DEPENDS
         "${CMAKE_CURRENT_SOURCE_DIR}/include/*.h"
@@ -53,4 +54,8 @@ set_target_properties(FufuEngine PROPERTIES
         CXX_SCAN_FOR_MODULES ON
 )
 
-target_link_libraries(FufuEngine PRIVATE spdlog::spdlog_header_only)
+target_link_libraries(FufuEngine
+        PUBLIC
+        glm::module
+        spdlog::spdlog_header_only
+)
