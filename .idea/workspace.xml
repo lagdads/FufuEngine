@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="11" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
     <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
@@ -32,16 +32,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3d80dc-bec8-4ff3-9bda-efc3a246f1d1" name="更改" comment="初始化仓库，实现基础的 EntryPoint">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Log.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FufuEngine/modules/Log.cppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FufuEngine/thirdparty/spdlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ac3d80dc-bec8-4ff3-9bda-efc3a246f1d1" name="更改" comment="日志系统">
+      <change afterPath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Event.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FufuEngine/modules/Events/Event.cppm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Macros.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/include/FufuEngine/Core/Macros.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FufuEngine/modules/FufuEngine.cppm" beforeDir="false" afterPath="$PROJECT_DIR$/FufuEngine/modules/FufuEngine.cppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
     <persistenceIdMap />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="205" />
+    <option name="cachedIndexableFilesCount" value="207" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:llvm-debug" />
@@ -71,61 +68,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000000001" />
-      <entry key="S5" value="1.000002007662171" />
-      <entry key="S10" value="1.0024637346166758" />
-      <entry key="S30" value="1.3048943992978173" />
-      <entry key="S60" value="2.4201430840355265" />
-      <entry key="M2" value="7.943157071223464" />
-      <entry key="M5" value="33.47173415028183" />
-      <entry key="M10" value="69.63596327160701" />
-      <entry key="M15" value="98.45765744648843" />
-      <entry key="M30" value="174.90949353637532" />
-      <entry key="H1" value="294.94274307585147" />
-      <entry key="H2" value="423.2155852239624" />
-      <entry key="H4" value="521.5275319796599" />
-      <entry key="D1" value="629.7699857641069" />
-      <entry key="W1" value="651.314221160809" />
+      <entry key="MS100" value="7.177575814299901E-7" />
+      <entry key="MS500" value="0.05904748550878398" />
+      <entry key="S2" value="0.5447235804218526" />
+      <entry key="S5" value="1.620623039359583" />
+      <entry key="S10" value="3.7126927274038715" />
+      <entry key="S30" value="8.717622073990665" />
+      <entry key="S60" value="11.323550287510217" />
+      <entry key="M2" value="13.001774067453255" />
+      <entry key="M5" value="14.534727546469131" />
+      <entry key="M10" value="21.333104450993925" />
+      <entry key="M15" value="35.62965243540323" />
+      <entry key="M30" value="95.20520144264596" />
+      <entry key="H1" value="221.87902397857883" />
+      <entry key="H2" value="413.348050879386" />
+      <entry key="H4" value="605.8043984719601" />
+      <entry key="D1" value="866.6380448762449" />
+      <entry key="W1" value="924.8328896091194" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.7520462039152154E-227" />
-      <entry key="S2" value="2.509433428815857E-57" />
-      <entry key="S5" value="2.6894572504854535E-23" />
-      <entry key="S10" value="6.802269771636346E-12" />
-      <entry key="S30" value="3.003217544096683E-4" />
-      <entry key="S60" value="0.028732783804960818" />
-      <entry key="M2" value="0.3923958033614888" />
-      <entry key="M5" value="3.331056078043011" />
-      <entry key="M10" value="9.36571344503476" />
-      <entry key="M15" value="14.451072021726826" />
-      <entry key="M30" value="26.659548277346268" />
-      <entry key="H1" value="43.642433750949984" />
-      <entry key="H2" value="60.641285053555976" />
-      <entry key="H4" value="73.2523193510884" />
-      <entry key="D1" value="86.86109453933226" />
-      <entry key="W1" value="89.54214493068618" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000068777992" />
+      <entry key="S2" value="1.0109943194005906" />
+      <entry key="S5" value="1.2502784520205104" />
+      <entry key="S10" value="1.8525697618645052" />
+      <entry key="S30" value="3.274961598481376" />
+      <entry key="S60" value="3.9962714589467945" />
+      <entry key="M2" value="4.456015179035898" />
+      <entry key="M5" value="4.7885450254501265" />
+      <entry key="M10" value="5.438132608680908" />
+      <entry key="M15" value="6.991137942046622" />
+      <entry key="M30" value="14.492971621740422" />
+      <entry key="H1" value="31.822555440156506" />
+      <entry key="H2" value="58.14249382841736" />
+      <entry key="H4" value="84.19994143982404" />
+      <entry key="D1" value="118.97076911520743" />
+      <entry key="W1" value="126.6590766898715" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9862327044933592" />
-      <entry key="MS500" value="0.9972312513520695" />
-      <entry key="S2" value="0.9993070929904536" />
-      <entry key="S5" value="0.9997247864825508" />
-      <entry key="S10" value="1.0023246591494803" />
-      <entry key="S30" value="1.305087415416265" />
-      <entry key="S60" value="2.44670215854312" />
-      <entry key="M2" value="8.322287192293185" />
-      <entry key="M5" value="36.767210345064306" />
-      <entry key="M10" value="78.95691849430975" />
-      <entry key="M15" value="112.86426265167465" />
-      <entry key="M30" value="201.52897148219756" />
-      <entry key="H1" value="338.55189117774006" />
-      <entry key="H2" value="483.83318057757674" />
-      <entry key="H4" value="594.7652920709423" />
-      <entry key="D1" value="716.6281528235785" />
-      <entry key="W1" value="740.8559335863469" />
+      <entry key="MS100" value="0.014477938493818033" />
+      <entry key="MS500" value="0.4363724211455032" />
+      <entry key="S2" value="1.163521622940615" />
+      <entry key="S5" value="2.6019013452153783" />
+      <entry key="S10" value="5.349337954226709" />
+      <entry key="S30" value="11.860107979035845" />
+      <entry key="S60" value="15.238178363714832" />
+      <entry key="M2" value="17.41203191479183" />
+      <entry key="M5" value="19.30266730408598" />
+      <entry key="M10" value="26.755663595694273" />
+      <entry key="M15" value="42.60378876874242" />
+      <entry key="M30" value="109.67638570068385" />
+      <entry key="H1" value="253.6766779260533" />
+      <entry key="H2" value="471.46752647278447" />
+      <entry key="H4" value="689.9875138884988" />
+      <entry key="D1" value="985.6048058593205" />
+      <entry key="W1" value="1051.4913552749922" />
     </decayedShown>
   </component>
   <component name="OptimizeOnSaveOptions">
@@ -149,33 +146,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "CMake 应用程序.Sandbox.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.advertisement.text.overridden": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lagdadsli/CLionProjects/FufuEngine",
-    "org.rust.first.attach.projects": "true",
-    "rearrange.code.on.save": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.Sandbox.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lagdadsli/CLionProjects/FufuEngine&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FufuEngine/src" />
@@ -183,11 +180,6 @@
   </component>
   <component name="RunManager" selected="CMake 应用程序.Sandbox">
     <configuration name="Sandbox" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FufuEngine" TARGET_NAME="Sandbox" CONFIG_NAME="llvm-debug" RUN_TARGET_PROJECT_NAME="FufuEngine" RUN_TARGET_NAME="Sandbox">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -221,7 +213,13 @@
       <workItem from="1780925115728" duration="4574000" />
       <workItem from="1780929708669" duration="643000" />
       <workItem from="1780930552684" duration="3035000" />
-      <workItem from="1780933603336" duration="735000" />
+      <workItem from="1780933603336" duration="1669000" />
+      <workItem from="1780989711933" duration="14000" />
+      <workItem from="1780989753456" duration="25000" />
+      <workItem from="1780989796302" duration="137000" />
+      <workItem from="1780989963161" duration="179000" />
+      <workItem from="1780990367558" duration="12677000" />
+      <workItem from="1781148376273" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="初始化仓库，实现基础的 EntryPoint">
       <option name="closed" value="true" />
@@ -231,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780930586052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="日志系统">
+      <option name="closed" value="true" />
+      <created>1780934486730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780934486730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VCPKGProject">
@@ -254,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="初始化仓库，实现基础的 EntryPoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化仓库，实现基础的 EntryPoint" />
+    <MESSAGE value="日志系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志系统" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

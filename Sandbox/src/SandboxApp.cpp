@@ -12,6 +12,9 @@ namespace Sandbox
 	};
 }
 
-extern "C++" auto FufuEngine::CreateApplication() -> std::unique_ptr<Application> {
-	return std::make_unique<Sandbox::SandboxApp>();
+namespace FufuEngine
+{
+	auto CreateApplication() -> std::unique_ptr<Application> {
+		return std::make_unique<Sandbox::SandboxApp>();
+	}
 }
